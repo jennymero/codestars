@@ -1,0 +1,62 @@
+
+//PROBLEM 1
+
+//ASSIGNMENT: Create a method that returns the number of words that are in a string.
+
+/*
+
+- (void)printNumberOfWordsInString(NSString*)string  {
+    NSArray *words = [string componentsSeparatedByString: @" "];
+    
+    //Count and print the number of items in the array
+    NSInteger wordCount = [words count];
+    NSLog(@"%lu",wordCount);
+    
+}
+
+*/
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        
+    
+NSString *str = @"There will be a glass of wine waiting for me when I solve this problem";
+NSArray *words = [str componentsSeparatedByString: @" "];
+    for (NSArray *item in words) {
+       NSLog(@"%@", item);
+       }
+        //Count and print the number of items in the array
+            NSInteger wordCount = [words count];
+            NSLog(@"%lu",wordCount);
+        
+        
+    }
+    return 0;
+}
+
+//PROBLEM 2
+//I HAD TROUBLE WITH THIS ONE AND PULLING OUT THE VOWELS. IT ITERATES AND SEPARATES THE SENTENCE INTO CHARACTERS
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSString *myString = @"My simple sentence";
+        
+        NSMutableArray *characters = [[NSMutableArray alloc] initWithCapacity:[myString length]];
+        for (int i=0; i < [myString length]; i++) {
+            NSString *ichar  = [NSString stringWithFormat:@"%c", [myString characterAtIndex:i]];
+            [characters addObject:ichar];
+        }
+        NSLog(@"These are the characters: %@ ", characters);
+        
+        //Pull out vowels with if statement
+        if (characters == 'a') {
+            NSInteger vowelCount = [characters count];
+            NSLog(@"%lu",vowelCount);
+        }
+
+    }
+    return 0;
+}
+
