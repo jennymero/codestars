@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25ADDDE51B84FA0F00E73A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDDE41B84FA0F00E73A9A /* main.m */; };
+		25ADDE711B87B93500E73A9A /* ArrayJoiner.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDE701B87B93500E73A9A /* ArrayJoiner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25ADDDDF1B84FA0F00E73A9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25ADDDE11B84FA0F00E73A9A /* ps4_question2_joinArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ps4_question2_joinArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ADDDE41B84FA0F00E73A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25ADDE6F1B87B93500E73A9A /* ArrayJoiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayJoiner.h; sourceTree = "<group>"; };
+		25ADDE701B87B93500E73A9A /* ArrayJoiner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayJoiner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25ADDDDE1B84FA0F00E73A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25ADDDD81B84FA0F00E73A9A = {
+			isa = PBXGroup;
+			children = (
+				25ADDDE31B84FA0F00E73A9A /* ps4_question2_joinArrays */,
+				25ADDDE21B84FA0F00E73A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25ADDDE21B84FA0F00E73A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDDE11B84FA0F00E73A9A /* ps4_question2_joinArrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25ADDDE31B84FA0F00E73A9A /* ps4_question2_joinArrays */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDDE41B84FA0F00E73A9A /* main.m */,
+				25ADDE6F1B87B93500E73A9A /* ArrayJoiner.h */,
+				25ADDE701B87B93500E73A9A /* ArrayJoiner.m */,
+			);
+			path = ps4_question2_joinArrays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25ADDDE01B84FA0F00E73A9A /* ps4_question2_joinArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25ADDDE81B84FA0F00E73A9A /* Build configuration list for PBXNativeTarget "ps4_question2_joinArrays" */;
+			buildPhases = (
+				25ADDDDD1B84FA0F00E73A9A /* Sources */,
+				25ADDDDE1B84FA0F00E73A9A /* Frameworks */,
+				25ADDDDF1B84FA0F00E73A9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ps4_question2_joinArrays;
+			productName = ps4_question2_joinArrays;
+			productReference = 25ADDDE11B84FA0F00E73A9A /* ps4_question2_joinArrays */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25ADDDD91B84FA0F00E73A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.jm;
+				TargetAttributes = {
+					25ADDDE01B84FA0F00E73A9A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 25ADDDDC1B84FA0F00E73A9A /* Build configuration list for PBXProject "ps4_question2_joinArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25ADDDD81B84FA0F00E73A9A;
+			productRefGroup = 25ADDDE21B84FA0F00E73A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25ADDDE01B84FA0F00E73A9A /* ps4_question2_joinArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25ADDDDD1B84FA0F00E73A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDE711B87B93500E73A9A /* ArrayJoiner.m in Sources */,
+				25ADDDE51B84FA0F00E73A9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25ADDDE61B84FA0F00E73A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25ADDDE71B84FA0F00E73A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25ADDDE91B84FA0F00E73A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25ADDDEA1B84FA0F00E73A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25ADDDDC1B84FA0F00E73A9A /* Build configuration list for PBXProject "ps4_question2_joinArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ADDDE61B84FA0F00E73A9A /* Debug */,
+				25ADDDE71B84FA0F00E73A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25ADDDE81B84FA0F00E73A9A /* Build configuration list for PBXNativeTarget "ps4_question2_joinArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ADDDE91B84FA0F00E73A9A /* Debug */,
+				25ADDDEA1B84FA0F00E73A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25ADDDD91B84FA0F00E73A9A /* Project object */;
+}

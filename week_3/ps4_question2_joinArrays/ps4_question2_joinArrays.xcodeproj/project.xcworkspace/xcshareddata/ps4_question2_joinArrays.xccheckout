@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C3424F7-C4F0-40D3-AD9F-B6B524EC1D4A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ps4_question2_joinArrays</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>11C37159633334B1ADABD510FD81AE06D0F9A45B</key>
+		<string>https://github.com/jennymero/codestars.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>week_3/ps4_question2_joinArrays/ps4_question2_joinArrays.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>11C37159633334B1ADABD510FD81AE06D0F9A45B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jennymero/codestars.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>11C37159633334B1ADABD510FD81AE06D0F9A45B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>11C37159633334B1ADABD510FD81AE06D0F9A45B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>codestars</string>
+		</dict>
+	</array>
+</dict>
+</plist>
