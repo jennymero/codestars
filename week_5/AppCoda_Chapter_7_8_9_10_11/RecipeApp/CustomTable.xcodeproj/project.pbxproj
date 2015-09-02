@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		255D62671B96153C00C3FCD4 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 255D62661B96153C00C3FCD4 /* recipes.plist */; };
 		255D626A1B96961E00C3FCD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255D62691B96961E00C3FCD4 /* DetailViewController.m */; };
+		255D626D1B973ED600C3FCD4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255D626C1B973ED600C3FCD4 /* AboutViewController.m */; };
+		255D62701B97873400C3FCD4 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 255D626E1B97873400C3FCD4 /* about.jpg */; };
+		255D62711B97873400C3FCD4 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 255D626F1B97873400C3FCD4 /* about.html */; };
 		257B61F81B8DF167001626CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B61F71B8DF167001626CE /* main.m */; };
 		257B61FB1B8DF167001626CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B61FA1B8DF167001626CE /* AppDelegate.m */; };
 		257B62011B8DF167001626CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257B61FF1B8DF167001626CE /* Main.storyboard */; };
@@ -33,6 +36,10 @@
 		255D62661B96153C00C3FCD4 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = recipes.plist; path = ../../../../../Downloads/recipes.plist; sourceTree = "<group>"; };
 		255D62681B96961E00C3FCD4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		255D62691B96961E00C3FCD4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		255D626B1B973ED600C3FCD4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		255D626C1B973ED600C3FCD4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		255D626E1B97873400C3FCD4 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = "../../../../../Downloads/book-tabbar-about/about.jpg"; sourceTree = "<group>"; };
+		255D626F1B97873400C3FCD4 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = about.html; path = "../../../../../Downloads/book-tabbar-about/about.html"; sourceTree = "<group>"; };
 		257B61F21B8DF167001626CE /* CustomTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257B61F61B8DF167001626CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257B61F71B8DF167001626CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +109,8 @@
 				255D62661B96153C00C3FCD4 /* recipes.plist */,
 				255D62681B96961E00C3FCD4 /* DetailViewController.h */,
 				255D62691B96961E00C3FCD4 /* DetailViewController.m */,
+				255D626B1B973ED600C3FCD4 /* AboutViewController.h */,
+				255D626C1B973ED600C3FCD4 /* AboutViewController.m */,
 			);
 			path = CustomTable;
 			sourceTree = "<group>";
@@ -110,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				257B61F61B8DF167001626CE /* Info.plist */,
+				255D626E1B97873400C3FCD4 /* about.jpg */,
+				255D626F1B97873400C3FCD4 /* about.html */,
 				257B61F71B8DF167001626CE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -212,6 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255D62711B97873400C3FCD4 /* about.html in Resources */,
+				255D62701B97873400C3FCD4 /* about.jpg in Resources */,
 				257B62011B8DF167001626CE /* Main.storyboard in Resources */,
 				257B62061B8DF167001626CE /* LaunchScreen.xib in Resources */,
 				255D62671B96153C00C3FCD4 /* recipes.plist in Resources */,
@@ -233,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255D626D1B973ED600C3FCD4 /* AboutViewController.m in Sources */,
 				255D626A1B96961E00C3FCD4 /* DetailViewController.m in Sources */,
 				257B61FB1B8DF167001626CE /* AppDelegate.m in Sources */,
 				257B621D1B8DF54A001626CE /* CustomTableViewController.m in Sources */,
