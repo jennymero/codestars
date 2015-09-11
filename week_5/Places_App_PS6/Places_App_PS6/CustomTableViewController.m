@@ -8,6 +8,7 @@
 
 #import "CustomTableViewController.h"
 #import "CustomTableViewCell.h"
+#import "DetailViewController.h"
 
 @interface CustomTableViewController ()
 
@@ -82,6 +83,13 @@
 
 BOOL placeChecked[16];
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+  if ([segue.identifier isEqualToString:@"showPlaceDetail"]) {
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    DetailViewController *destViewController = segue.destinationViewController;
+    destViewController.placeName = [places objectAtIndex:indexPath.row];
+  }
+}
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
