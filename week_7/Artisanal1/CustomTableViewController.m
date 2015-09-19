@@ -15,11 +15,13 @@
 @implementation CustomTableViewController
 {
   NSArray *homeList;
+  NSArray *recipeImages;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     homeList = @[@"Spirits List", @"Trending Spirits", @"Top Rated Spirits", @"Badges"];
+    recipeImages = @[@"Spirits80.jpg", @"Trending80.jpg"];
   
     
     // Uncomment the following line to preserve selection between presentations.
@@ -50,7 +52,7 @@
 {
   static NSString *cellIdentifier = @"Cell";
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-  cell.imageView.image = [UIImage imageNamed:@"Spirits80"];
+  cell.imageView.image = [UIImage imageNamed: [recipeImages objectAtIndex:indexPath.row]];
   
   return cell;
 }
