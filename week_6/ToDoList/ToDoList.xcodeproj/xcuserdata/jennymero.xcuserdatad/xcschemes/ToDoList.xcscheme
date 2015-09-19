@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "257B61F11B8DF167001626CE"
-               BuildableName = "CustomTable.app"
-               BlueprintName = "CustomTable"
-               ReferencedContainer = "container:CustomTable.xcodeproj">
+               BlueprintIdentifier = "25EF6A851BA99EDB00409E87"
+               BuildableName = "ToDoList.app"
+               BlueprintName = "ToDoList"
+               ReferencedContainer = "container:ToDoList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,80 +28,77 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "257B620A1B8DF167001626CE"
-               BuildableName = "CustomTableTests.xctest"
-               BlueprintName = "CustomTableTests"
-               ReferencedContainer = "container:CustomTable.xcodeproj">
+               BlueprintIdentifier = "25EF6A9E1BA99EDB00409E87"
+               BuildableName = "ToDoListTests.xctest"
+               BlueprintName = "ToDoListTests"
+               ReferencedContainer = "container:ToDoList.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "257B620A1B8DF167001626CE"
-               BuildableName = "CustomTableTests.xctest"
-               BlueprintName = "CustomTableTests"
-               ReferencedContainer = "container:CustomTable.xcodeproj">
+               BlueprintIdentifier = "25EF6A9E1BA99EDB00409E87"
+               BuildableName = "ToDoListTests.xctest"
+               BlueprintName = "ToDoListTests"
+               ReferencedContainer = "container:ToDoList.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "257B61F11B8DF167001626CE"
-            BuildableName = "CustomTable.app"
-            BlueprintName = "CustomTable"
-            ReferencedContainer = "container:CustomTable.xcodeproj">
+            BlueprintIdentifier = "25EF6A851BA99EDB00409E87"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
+            ReferencedContainer = "container:ToDoList.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "257B61F11B8DF167001626CE"
-            BuildableName = "CustomTable.app"
-            BlueprintName = "CustomTable"
-            ReferencedContainer = "container:CustomTable.xcodeproj">
+            BlueprintIdentifier = "25EF6A851BA99EDB00409E87"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
+            ReferencedContainer = "container:ToDoList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "257B61F11B8DF167001626CE"
-            BuildableName = "CustomTable.app"
-            BlueprintName = "CustomTable"
-            ReferencedContainer = "container:CustomTable.xcodeproj">
+            BlueprintIdentifier = "25EF6A851BA99EDB00409E87"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
+            ReferencedContainer = "container:ToDoList.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
