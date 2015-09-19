@@ -14,6 +14,7 @@
 		2517BAA21BADD60600692F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2517BAA01BADD60600692F87 /* LaunchScreen.storyboard */; };
 		2517BAAD1BADD60600692F87 /* Artisanal1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517BAAC1BADD60600692F87 /* Artisanal1Tests.m */; };
 		2517BAB81BADD60600692F87 /* Artisanal1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517BAB71BADD60600692F87 /* Artisanal1UITests.m */; };
+		2517BAC71BADD7EC00692F87 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517BAC61BADD7EC00692F87 /* CustomTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		2517BAB31BADD60600692F87 /* Artisanal1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Artisanal1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2517BAB71BADD60600692F87 /* Artisanal1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Artisanal1UITests.m; sourceTree = "<group>"; };
 		2517BAB91BADD60600692F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2517BAC51BADD7EC00692F87 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewController.h; path = ../CustomTableViewController.h; sourceTree = "<group>"; };
+		2517BAC61BADD7EC00692F87 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewController.m; path = ../CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				2517BA9B1BADD60600692F87 /* Main.storyboard */,
 				2517BA9E1BADD60600692F87 /* Assets.xcassets */,
 				2517BAA01BADD60600692F87 /* LaunchScreen.storyboard */,
+				2517BAC51BADD7EC00692F87 /* CustomTableViewController.h */,
+				2517BAC61BADD7EC00692F87 /* CustomTableViewController.m */,
 				2517BAA31BADD60600692F87 /* Info.plist */,
 				2517BA921BADD60600692F87 /* Supporting Files */,
 			);
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2517BA971BADD60600692F87 /* AppDelegate.m in Sources */,
+				2517BAC71BADD7EC00692F87 /* CustomTableViewController.m in Sources */,
 				2517BA941BADD60600692F87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
