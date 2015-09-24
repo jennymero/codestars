@@ -20,6 +20,7 @@
   NSArray *recipeNames;
   NSArray *recipeImages;
   NSArray *recipeTimes;
+  UISearchController *searchController;
 }
 
 - (void)viewDidLoad {
@@ -29,6 +30,12 @@
     recipeNames = [dict objectForKey:@"Name"];
     recipeImages = [dict objectForKey:@"Image"];
     recipeTimes = [dict objectForKey:@"PrepTime"];
+  
+  searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+  [searchController.searchBar sizeToFit];
+  self.tableView.tableHeaderView = searchController.searchBar;
+  self.definesPresentationContext =YES;
+  
   
 //  recipeNames = @[@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brulee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini"];
 //  
