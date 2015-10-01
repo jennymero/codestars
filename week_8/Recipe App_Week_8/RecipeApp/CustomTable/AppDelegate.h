@@ -1,5 +1,5 @@
 //
-//  CustomTableViewController.h
+//  AppDelegate.h
 //  CustomTable
 //
 //  Created by JENNY MERO on 8/26/15.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomTableViewController : UITableViewController <UISearchResultsUpdating>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
+

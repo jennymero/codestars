@@ -33,14 +33,14 @@
     recipe1.name = @"Egg Benedict";
     recipe1.prepTime = @"30 min";
     recipe1.image = @"egg_benedict.jpg";
-//    recipe1.ingredients = [NSArray arrayWithObjects:@"2 fresh English muffins", @"4 eggs", @"4 rashers of back bacon", @"2 egg yolks", @"1 tbsp of lemon juice", @"125 g of butter", @"salt and pepper", nil];
+    recipe1.ingredients = [NSArray arrayWithObjects:@"2 fresh English muffins", @"4 eggs", @"4 rashers of back bacon", @"2 egg yolks", @"1 tbsp of lemon juice", @"125 g of butter", @"salt and pepper", nil];
   
   
     Recipe *recipe2 = [Recipe new];
     recipe2.name = @"Mushroom Risotto";
     recipe2.prepTime = @"30 min";
     recipe2.image = @"mushroom_risotto.jpg";
-//    recipe2.ingredients = [NSArray arrayWithObjects:@"1 tbsp dried porcini mushrooms", @"2 tbsp olive oil", @"1 onion, chopped", @"2 garlic cloves", @"350g/12oz arborio rice", @"1.2 litres/2 pints hot vegetable stock", @"salt and pepper", @"25g/1oz butter", nil];
+    recipe2.ingredients = [NSArray arrayWithObjects:@"1 tbsp dried porcini mushrooms", @"2 tbsp olive oil", @"1 onion, chopped", @"2 garlic cloves", @"350g/12oz arborio rice", @"1.2 litres/2 pints hot vegetable stock", @"salt and pepper", @"25g/1oz butter", nil];
   
   recipes = [NSArray arrayWithObjects:recipe1, recipe2, nil];
   
@@ -131,6 +131,8 @@
     DetailViewController *destViewController = segue.destinationViewController; //Once row selected, pass DetailViewController
     
     Recipe *recipe;
+    //= [recipes objectAtIndex:indexPath.row];
+    //destViewController.recipe = recipe;
     
     if (searchController.active) {
       recipe = [searchResults objectAtIndex:indexPath.row];
@@ -138,7 +140,7 @@
       recipe = [recipes objectAtIndex:indexPath.row];
     }
     
-    destViewController.recipeName = recipe.name;
+    destViewController.recipe = recipe;
     
   }
 }
